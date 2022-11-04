@@ -9,10 +9,16 @@
             int firstNumber=int.Parse(Console.ReadLine());
             Console.WriteLine("Enter the Second Number");
             int secondNumber=int.Parse(Console.ReadLine());
+                
+            //int temp = firstNumber;
+            //firstNumber = secondNumber;
+            //secondNumber = temp;
 
-            int temp = firstNumber;
-            firstNumber = secondNumber;
-            secondNumber = temp;
+            //without Using temp variable
+
+            firstNumber= firstNumber+secondNumber;
+            secondNumber = firstNumber - secondNumber;
+            firstNumber = firstNumber - secondNumber;
 
             Console.WriteLine("After swapping");
             Console.WriteLine($"First Number:{firstNumber}");
