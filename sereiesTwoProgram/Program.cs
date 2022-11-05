@@ -15,7 +15,7 @@
             else
                 {
                     Console.WriteLine($"{i}");
-                }
+                }s
             }
         }
     }
